@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 30">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A84C"/>
+      <stop offset="50%" stop-color="#D4B96A"/>
+      <stop offset="100%" stop-color="#A88A30"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,15 L70,15" stroke="url(#gold)" stroke-width="0.8" opacity="0.4"/>
+  <path d="M130,15 L200,15" stroke="url(#gold)" stroke-width="0.8" opacity="0.4"/>
+  <circle cx="100" cy="15" r="4" fill="none" stroke="url(#gold)" stroke-width="1" opacity="0.5"/>
+  <circle cx="100" cy="15" r="2" fill="url(#gold)" opacity="0.4"/>
+  <circle cx="90" cy="15" r="3" fill="none" stroke="url(#gold)" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="110" cy="15" r="3" fill="none" stroke="url(#gold)" stroke-width="0.6" opacity="0.3"/>
+  <circle cx="80" cy="15" r="2" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.2"/>
+  <circle cx="120" cy="15" r="2" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.2"/>
+  <!-- Petals -->
+  <ellipse cx="100" cy="8" rx="5" ry="3" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.25"/>
+  <ellipse cx="100" cy="22" rx="5" ry="3" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.25"/>
+  <ellipse cx="93" cy="12" rx="3" ry="5" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.25" transform="rotate(-30,93,12)"/>
+  <ellipse cx="107" cy="12" rx="3" ry="5" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.25" transform="rotate(30,107,12)"/>
+  <ellipse cx="93" cy="18" rx="3" ry="5" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.25" transform="rotate(30,93,18)"/>
+  <ellipse cx="107" cy="18" rx="3" ry="5" fill="none" stroke="url(#gold)" stroke-width="0.5" opacity="0.25" transform="rotate(-30,107,18)"/>
+</svg>

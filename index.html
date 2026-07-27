@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Undangan Pernikahan Digital — Rumadi & Dias | Minggu, 31 Januari 2027">
+  <meta name="theme-color" content="#1a2e24">
+  <meta property="og:title" content="Undangan Pernikahan Rumadi & Dias">
+  <meta property="og:description" content="Kami mengundang Anda untuk hadir di hari bahagia kami.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/gallery-1.jpg">
+  <title>Undangan Pernikahan — Rumadi & Dias</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%23C9A84C'/><text y='.85em' x='50%' text-anchor='middle' font-size='55' fill='%231a0f08'>🌺</text></svg>">
+</head>
+<body>
+
+  <!-- Skip link -->
+  <a href="#main-content" class="skip-link">Lewati ke konten</a>
+
+  <!-- =============================================
+       COVER — Full Interactive Kejawen Opening
+       ============================================= -->
+  <section id="cover" aria-label="Cover Undangan">
+    <div class="cover-bg" aria-hidden="true"></div>
+    <div class="cover-bg-particles" id="cover-particles" aria-hidden="true"></div>
+
+    <!-- Animated Gunungan Floating -->
+    <div class="cover-gunungan-left" aria-hidden="true">
+      <img src="assets/gunungan.png" alt="" class="gunungan-img gunungan-img--left">
+    </div>
+    <div class="cover-gunungan-right" aria-hidden="true">
+      <img src="assets/gunungan.png" alt="" class="gunungan-img gunungan-img--right">
+    </div>
+
+    <!-- Batik Overlay -->
+    <div class="cover-batik-overlay" aria-hidden="true">
+      <img src="assets/batik-pattern.svg" alt="" class="batik-pattern-img">
+    </div>
+
+    <!-- Sunggingan Ornaments -->
+    <div class="cover-sunggingan" aria-hidden="true">
+      <svg class="sungging tl" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3">
+        <path d="M0,30 Q10,10 25,5 L30,0 L35,5 Q50,10 60,30"/>
+        <path d="M0,30 Q0,45 10,55 Q20,60 30,60"/>
+        <circle cx="15" cy="15" r="3" fill="currentColor" opacity="0.5"/>
+        <circle cx="28" cy="8" r="2" fill="currentColor" opacity="0.4"/>
+      </svg>
+      <svg class="sungging tr" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3">
+        <path d="M60,30 Q50,10 35,5 L30,0 L25,5 Q10,10 0,30"/>
+        <path d="M60,30 Q60,45 50,55 Q40,60 30,60"/>
+        <circle cx="45" cy="15" r="3" fill="currentColor" opacity="0.5"/>
+        <circle cx="32" cy="8" r="2" fill="currentColor" opacity="0.4"/>
+      </svg>
+      <svg class="sungging bl" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3">
+        <path d="M0,30 Q10,50 25,55 L30,60 L35,55 Q50,50 60,30"/>
+        <path d="M0,30 Q0,15 10,5 Q20,0 30,0"/>
+        <circle cx="15" cy="45" r="3" fill="currentColor" opacity="0.5"/>
+        <circle cx="28" cy="52" r="2" fill="currentColor" opacity="0.4"/>
+      </svg>
+      <svg class="sungging br" viewBox="0 0 60 60" fill="none" stroke="currentColor" stroke-width="0.8" opacity="0.3">
+        <path d="M60,30 Q50,50 35,55 L30,60 L25,55 Q10,50 0,30"/>
+        <path d="M60,30 Q60,15 50,5 Q40,0 30,0"/>
+        <circle cx="45" cy="45" r="3" fill="currentColor" opacity="0.5"/>
+        <circle cx="32" cy="52" r="2" fill="currentColor" opacity="0.4"/>
+      </svg>
+    </div>
+
+    <!-- Gold thread borders -->
+    <div class="cover-border-top" aria-hidden="true"></div>
+    <div class="cover-border-bottom" aria-hidden="true"></div>
+
+    <div class="cover-content">
+      <p class="cover-bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ</p>
+
+      <div class="cover-ornament-divider" aria-hidden="true">
+        <span class="diamond"></span>
+        <span class="dot"></span>
+        <span class="diamond"></span>
+      </div>
+
+      <p class="cover-label">Undangan Pernikahan</p>
+
+      <h1 class="cover-couple-names">
+        <span class="groom-name">Rumadi</span>
+        <span class="ampersand" aria-hidden="true">&amp;</span>
+        <span class="bride-name">Dias</span>
+      </h1>
+
+      <div class="cover-ornament-divider" aria-hidden="true">
+        <span class="diamond diamond--sm"></span>
+        <span class="line"></span>
+        <span class="diamond diamond--sm"></span>
+      </div>
+
+      <p class="cover-date">Minggu, 31 Januari 2027</p>
+
+      <div class="cover-guest" id="cover-guest" hidden>
+        <p class="cover-guest-label">Kepada Yth.</p>
+        <p class="cover-guest-name" id="guest-name"></p>
+      </div>
+
+      <button id="btn-open" class="btn-open" type="button" aria-label="Buka undangan pernikahan">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3,5 12,13 21,5"/></svg>
+        <span>Buka Undangan</span>
+      </button>
+
+      <!-- Scroll indicator -->
+      <div class="cover-scroll-indicator" aria-hidden="true">
+        <span class="scroll-text">Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       MAIN CONTENT
+       ============================================= -->
+  <main id="main-content">
+
+    <!-- ========== HERO / AYAT ========== -->
+    <section id="hero" class="section" aria-label="Kutipan Pembuka">
+      <div class="section-accent-pattern" aria-hidden="true"></div>
+
+      <div class="container">
+        <!-- Inisial Nama -->
+        <div class="hero-initials reveal">
+          <span class="initials">R <span class="amp">&</span> D</span>
+        </div>
+
+        <!-- Floating small gunungan decoration -->
+        <div class="hero-gunungan-decor" aria-hidden="true">
+          <img src="assets/gunungan.png" alt="" class="hero-gunungan-img">
+        </div>
+
+        <blockquote class="hero-quote reveal">
+          <svg class="quote-mark quote-mark--left" viewBox="0 0 40 40" fill="currentColor" opacity="0.15" aria-hidden="true">
+            <path d="M0,40 L0,0 Q20,0 20,20 Q0,20 0,40 Z M20,40 L20,0 Q40,0 40,20 Q20,20 20,40 Z"/>
+          </svg>
+          <p>"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan hidup dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang."</p>
+          <svg class="quote-mark quote-mark--right" viewBox="0 0 40 40" fill="currentColor" opacity="0.15" aria-hidden="true">
+            <path d="M0,40 L0,0 Q20,0 20,20 Q0,20 0,40 Z M20,40 L20,0 Q40,0 40,20 Q20,20 20,40 Z"/>
+          </svg>
+          <footer class="hero-source">— QS. Ar-Rum: 21 —</footer>
+        </blockquote>
+
+        <div class="ornament-divider reveal" data-delay="200">
+          <span class="diamond"></span>
+          <span class="ornament-line"></span>
+          <span class="diamond"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== MEMPELAI ========== -->
+    <section id="mempelai" class="section" aria-label="Profil Mempelai">
+      <div class="section-accent--parang" aria-hidden="true"></div>
+
+      <!-- Decorative Gunungan Background -->
+      <div class="mempelai-bg-gunungan" aria-hidden="true">
+        <img src="assets/gunungan.png" alt="" class="mempelai-gunungan-img mempelai-gunungan-img--left">
+        <img src="assets/gunungan.png" alt="" class="mempelai-gunungan-img mempelai-gunungan-img--right">
+      </div>
+
+      <div class="container">
+        <p class="section-label reveal">Assalamu'alaikum</p>
+        <h2 class="section-title reveal" data-delay="100">Mempelai</h2>
+        <p class="section-subtitle reveal" data-delay="150">Bismillahirrahmanirrahim, dengan memohon rahmat dan ridho Allah SWT, kami bermaksud menyelenggarakan pernikahan putra-putri kami:</p>
+
+        <div class="mempelai-grid reveal" data-delay="200">
+          <!-- Pengantin Pria -->
+          <article class="mempelai-card mempelai-card--groom">
+            <div class="photo-frame photo-frame--groom" role="img" aria-label="Foto Pengantin Pria—Rumadi">
+              <div class="photo-frame-ornament" aria-hidden="true">
+                <svg viewBox="0 0 220 220" fill="none">
+                  <circle cx="110" cy="110" r="100" stroke="#C9A84C" stroke-width="0.5" opacity="0.3" stroke-dasharray="4,4"/>
+                  <circle cx="110" cy="110" r="96" stroke="#C9A84C" stroke-width="0.3" opacity="0.2"/>
+                </svg>
+              </div>
+              <figure class="photo-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor" aria-hidden="true">
+                  <circle cx="60" cy="40" r="28"/>
+                  <ellipse cx="60" cy="105" rx="42" ry="28"/>
+                </svg>
+              </figure>
+            </div>
+            <div class="mempelai-info">
+              <h3 class="mempelai-name">Rumadi</h3>
+              <p class="mempelai-fullname">Rumadi, S.T.</p>
+              <p class="mempelai-parents">Putra dari Bapak Suryo Wibowo &amp; Ibu Sri Handayani</p>
+              <div class="mempelai-social">
+                <a href="#" class="social-link" aria-label="Instagram Rumadi">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Ampersand divider -->
+          <div class="mempelai-amp reveal" aria-hidden="true">
+            <span class="amp-svg">
+              <svg viewBox="0 0 60 80" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.5">
+                <path d="M30,5 Q5,35 30,65"/>
+                <path d="M30,5 Q55,35 30,65"/>
+                <circle cx="30" cy="40" r="3" fill="currentColor" opacity="0.3"/>
+              </svg>
+            </span>
+            <span class="amp-text">&amp;</span>
+          </div>
+
+          <!-- Pengantin Wanita -->
+          <article class="mempelai-card mempelai-card--bride">
+            <div class="photo-frame photo-frame--bride" role="img" aria-label="Foto Pengantin Wanita—Dias">
+              <div class="photo-frame-ornament" aria-hidden="true">
+                <svg viewBox="0 0 220 220" fill="none">
+                  <circle cx="110" cy="110" r="100" stroke="#C9A84C" stroke-width="0.5" opacity="0.3" stroke-dasharray="4,4"/>
+                  <circle cx="110" cy="110" r="96" stroke="#C9A84C" stroke-width="0.3" opacity="0.2"/>
+                </svg>
+              </div>
+              <figure class="photo-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor" aria-hidden="true">
+                  <circle cx="60" cy="40" r="28"/>
+                  <ellipse cx="60" cy="105" rx="42" ry="28"/>
+                </svg>
+              </figure>
+            </div>
+            <div class="mempelai-info">
+              <h3 class="mempelai-name">Dias</h3>
+              <p class="mempelai-fullname">Dias Ayu Lestari, S.Pd.</p>
+              <p class="mempelai-parents">Putri dari Bapak Hadi Santoso &amp; Ibu Retno Wulandari</p>
+              <div class="mempelai-social">
+                <a href="#" class="social-link" aria-label="Instagram Dias">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== LOVE STORY TIMELINE ========== -->
+    <section id="love-story" class="section section--velvet" aria-label="Kisah Cinta">
+      <div class="section-border-gold" aria-hidden="true"></div>
+      <div class="section-bg-pattern" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="section-label reveal">Our Story</p>
+        <h2 class="section-title section-title--gold reveal" data-delay="100">Kisah Kami</h2>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2022</div>
+              <h3 class="timeline-title">Pertama Bertemu</h3>
+              <p class="timeline-text">Berawal dari sebuah acara pertemuan keluarga, kami saling bertemu dan berkenalan. Tanpa disangka, perkenalan itu menjadi awal dari sebuah kisah yang indah.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2023</div>
+              <h3 class="timeline-title">Mulai Dekat</h3>
+              <p class="timeline-text">Seiring berjalannya waktu, kami semakin sering berbagi cerita dan menghabiskan waktu bersama. Setiap momen terasa istimewa dan penuh makna.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2024</div>
+              <h3 class="timeline-title">Keputusan Hati</h3>
+              <p class="timeline-text">Dengan penuh keyakinan dan doa, kami memantapkan hati untuk melanjutkan hubungan ke jenjang yang lebih serius. Keluarga dan sahabat menjadi saksi kebahagiaan kami.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">2027</div>
+              <h3 class="timeline-title">Pernikahan</h3>
+              <p class="timeline-text">Akhirnya, dengan izin Allah SWT, kami akan bersatu dalam ikatan suci pernikahan. Doa terbaik dari Anda menjadi hadiah terindah bagi kami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COUNTDOWN ========== -->
+    <section id="countdown" class="section section--velvet" aria-label="Hitung Mundur">
+      <div class="section-bg-pattern section-bg-pattern--megamendung" aria-hidden="true"></div>
+      <div class="section-border-gold" aria-hidden="true"></div>
+
+      <div class="container">
+        <!-- Floating mini gunungan -->
+        <div class="countdown-gunungan" aria-hidden="true">
+          <img src="assets/gunungan.png" alt="" class="countdown-gunungan-img">
+        </div>
+
+        <p class="section-label reveal">Our Day</p>
+        <h2 class="section-title section-title--gold reveal" data-delay="100">Menghitung Hari</h2>
+
+        <div class="countdown-grid reveal" data-delay="200">
+          <div class="countdown-unit" role="timer" aria-label="Hari">
+            <span class="countdown-number" id="countdown-days" aria-live="polite">00</span>
+            <span class="countdown-label">Hari</span>
+          </div>
+          <div class="countdown-separator" aria-hidden="true">:</div>
+          <div class="countdown-unit" role="timer" aria-label="Jam">
+            <span class="countdown-number" id="countdown-hours" aria-live="polite">00</span>
+            <span class="countdown-label">Jam</span>
+          </div>
+          <div class="countdown-separator" aria-hidden="true">:</div>
+          <div class="countdown-unit" role="timer" aria-label="Menit">
+            <span class="countdown-number" id="countdown-minutes" aria-live="polite">00</span>
+            <span class="countdown-label">Menit</span>
+          </div>
+          <div class="countdown-separator" aria-hidden="true">:</div>
+          <div class="countdown-unit" role="timer" aria-label="Detik">
+            <span class="countdown-number" id="countdown-seconds" aria-live="polite">00</span>
+            <span class="countdown-label">Detik</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACARA ========== -->
+    <section id="acara" class="section" aria-label="Detail Acara">
+      <div class="section-accent--kawung" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="section-label reveal">Acara</p>
+        <h2 class="section-title reveal" data-delay="100">Waktu &amp; Tempat</h2>
+        <p class="section-subtitle reveal" data-delay="150">Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Anda untuk hadir pada acara</p>
+
+        <div class="acara-grid reveal" data-delay="200">
+          <!-- Akad Nikah -->
+          <article class="acara-card">
+            <div class="acara-card-border" aria-hidden="true"></div>
+            <div class="acara-card-bg" aria-hidden="true">
+              <img src="assets/gunungan.png" alt="" class="acara-card-gunungan">
+            </div>
+
+            <div class="acara-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                <circle cx="24" cy="24" r="20"/>
+                <path d="M24,4 C24,4 18,16 18,24 C18,27.3 20.7,30 24,30 C27.3,30 30,27.3 30,24 C30,16 24,4 24,4Z" fill="currentColor" opacity="0.12"/>
+              </svg>
+            </div>
+            <h3 class="acara-title">Akad Nikah</h3>
+            <dl class="acara-detail">
+              <div class="acara-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <dt>Minggu, 31 Januari 2027</dt>
+              </div>
+              <div class="acara-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <dt>08.00 – 10.00 WIB</dt>
+              </div>
+              <div class="acara-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <dd>Gedung Al-Irsyad</dd>
+              </div>
+              <div class="acara-detail-item acara-detail--address">
+                <span>Jl. Kapten Mulyadi No.117, Kedung Lumbu, Kec. Ps. Kliwon, Kota Surakarta, Jawa Tengah 57117</span>
+              </div>
+            </dl>
+
+            <div class="acara-actions">
+              <a href="https://maps.app.goo.gl/4VURKkHbpEy1cGdP6" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Google Maps
+              </a>
+              <button class="btn btn--outline btn--sm btn-add-calendar" type="button" data-title="Akad Nikah Rumadi & Dias" data-date="2027-01-31" data-time="08:00" data-location="Pendopo Agung Mangkunegaran">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Add to Calendar
+              </button>
+            </div>
+
+            <div class="acara-map-wrapper">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1!2d110.8!3d-7.57!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzQnMTIuMCJTIDExMMKwNDgnMDAuMCJF!5e0!3m2!1sen!2sid!4v1" allowfullscreen loading="lazy" title="Lokasi Akad Nikah" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </article>
+
+          <!-- Resepsi -->
+          <article class="acara-card">
+            <div class="acara-card-border" aria-hidden="true"></div>
+            <div class="acara-card-bg" aria-hidden="true">
+              <img src="assets/gunungan.png" alt="" class="acara-card-gunungan">
+            </div>
+
+            <div class="acara-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M8,40 L8,20 L24,8 L40,20 L40,40 Z"/>
+                <path d="M18,40 L18,28 L30,28 L30,40"/>
+                <path d="M4,22 L24,6 L44,22"/>
+                <circle cx="24" cy="18" r="2" fill="currentColor" opacity="0.2"/>
+              </svg>
+            </div>
+            <h3 class="acara-title">Resepsi</h3>
+            <dl class="acara-detail">
+              <div class="acara-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <dt>Minggu, 31 Januari 2027</dt>
+              </div>
+              <div class="acara-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <dt>11.00 – 14.00 WIB</dt>
+              </div>
+              <div class="acara-detail-item">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <dd>Gedung Graha Saba Buana</dd>
+              </div>
+              <div class="acara-detail-item acara-detail--address">
+                <span>Jl. Lempuyangan No.1, Surakarta</span>
+              </div>
+            </dl>
+
+            <div class="acara-actions">
+              <a href="https://maps.google.com/?q=Graha+Saba+Buana" target="_blank" rel="noopener noreferrer" class="btn btn--outline btn--sm">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Google Maps
+              </button>
+              <button class="btn btn--outline btn--sm btn-add-calendar" type="button" data-title="Resepsi Pernikahan Rumadi & Dias" data-date="2027-01-31" data-time="11:00" data-location="Gedung Graha Saba Buana">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Add to Calendar
+              </button>
+            </div>
+
+            <div class="acara-map-wrapper">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1!2d110.8!3d-7.57!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zN8KwMzQnMTIuMCJTIDExMMKwNDgnMDAuMCJF!5e0!3m2!1sen!2sid!4v1" allowfullscreen loading="lazy" title="Lokasi Resepsi" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== GALERI ========== -->
+    <section id="galeri" class="section section--velvet" aria-label="Galeri Foto">
+      <div class="section-border-gold" aria-hidden="true"></div>
+      <div class="section-bg-pattern section-bg-pattern--parang" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="section-label reveal">Kenangan</p>
+        <h2 class="section-title section-title--gold reveal" data-delay="100">Galeri Foto</h2>
+        <p class="section-subtitle reveal" data-delay="150">Momen-momen indah yang kami abadikan</p>
+
+        <div class="galeri-grid reveal" data-delay="200">
+          <div class="galeri-item galeri-item--featured" tabindex="0" role="button" aria-label="Lihat foto prewedding 1">
+            <div class="galeri-img-wrapper">
+              <div class="galeri-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor"><circle cx="60" cy="40" r="28"/><ellipse cx="60" cy="105" rx="42" ry="28"/></svg>
+              </div>
+            </div>
+            <div class="galeri-overlay" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="5" y="5" width="30" height="30" rx="2"/>
+                <circle cx="20" cy="20" r="6"/>
+                <path d="M5,32 L16,22 L35,8"/>
+              </svg>
+            </div>
+          </div>
+          <div class="galeri-item" tabindex="0" role="button" aria-label="Lihat foto prewedding 2">
+            <div class="galeri-img-wrapper">
+              <div class="galeri-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor"><circle cx="60" cy="40" r="28"/><ellipse cx="60" cy="105" rx="42" ry="28"/></svg>
+              </div>
+            </div>
+            <div class="galeri-overlay" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="30" height="30" rx="2"/><circle cx="20" cy="20" r="6"/><path d="M5,32 L16,22 L35,8"/></svg></div>
+          </div>
+          <div class="galeri-item" tabindex="0" role="button" aria-label="Lihat foto prewedding 3">
+            <div class="galeri-img-wrapper">
+              <div class="galeri-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor"><circle cx="60" cy="40" r="28"/><ellipse cx="60" cy="105" rx="42" ry="28"/></svg>
+              </div>
+            </div>
+            <div class="galeri-overlay" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="30" height="30" rx="2"/><circle cx="20" cy="20" r="6"/><path d="M5,32 L16,22 L35,8"/></svg></div>
+          </div>
+          <div class="galeri-item" tabindex="0" role="button" aria-label="Lihat foto prewedding 4">
+            <div class="galeri-img-wrapper">
+              <div class="galeri-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor"><circle cx="60" cy="40" r="28"/><ellipse cx="60" cy="105" rx="42" ry="28"/></svg>
+              </div>
+            </div>
+            <div class="galeri-overlay" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="30" height="30" rx="2"/><circle cx="20" cy="20" r="6"/><path d="M5,32 L16,22 L35,8"/></svg></div>
+          </div>
+          <div class="galeri-item" tabindex="0" role="button" aria-label="Lihat foto prewedding 5">
+            <div class="galeri-img-wrapper">
+              <div class="galeri-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor"><circle cx="60" cy="40" r="28"/><ellipse cx="60" cy="105" rx="42" ry="28"/></svg>
+              </div>
+            </div>
+            <div class="galeri-overlay" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="30" height="30" rx="2"/><circle cx="20" cy="20" r="6"/><path d="M5,32 L16,22 L35,8"/></svg></div>
+          </div>
+          <div class="galeri-item" tabindex="0" role="button" aria-label="Lihat foto prewedding 6">
+            <div class="galeri-img-wrapper">
+              <div class="galeri-placeholder">
+                <svg viewBox="0 0 120 120" fill="currentColor"><circle cx="60" cy="40" r="28"/><ellipse cx="60" cy="105" rx="42" ry="28"/></svg>
+              </div>
+            </div>
+            <div class="galeri-overlay" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="5" width="30" height="30" rx="2"/><circle cx="20" cy="20" r="6"/><path d="M5,32 L16,22 L35,8"/></svg></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== RSVP ========== -->
+    <section id="rsvp" class="section" aria-label="Konfirmasi Kehadiran">
+      <div class="section-accent--truntum" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="section-label reveal">RSVP</p>
+        <h2 class="section-title reveal" data-delay="100">Konfirmasi Kehadiran</h2>
+        <p class="section-subtitle reveal" data-delay="150">Mohon konfirmasi kehadiran Anda sebagai tanda penghormatan kami</p>
+
+        <form id="rsvp-form" class="rsvp-form reveal" data-delay="200" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rsvp-name">Nama Lengkap</label>
+              <input type="text" id="rsvp-name" name="name" placeholder="Masukkan nama Anda" required autocomplete="name" aria-required="true">
+            </div>
+          </div>
+
+          <fieldset class="form-group">
+            <legend>Konfirmasi Kehadiran</legend>
+            <div class="radio-group" role="radiogroup" aria-required="true">
+              <label class="radio-label">
+                <input type="radio" name="attendance" value="hadir" required>
+                <span class="radio-custom" aria-hidden="true"></span>
+                <span>Hadir</span>
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="attendance" value="tidak_hadir">
+                <span class="radio-custom" aria-hidden="true"></span>
+                <span>Tidak Hadir</span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="form-row form-row--2col">
+            <div class="form-group">
+              <label for="rsvp-guests">Jumlah Tamu</label>
+              <select id="rsvp-guests" name="guests">
+                <option value="1">1 Orang</option>
+                <option value="2">2 Orang</option>
+                <option value="3">3 Orang</option>
+                <option value="4">4 Orang</option>
+                <option value="5">5 Orang</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="rsvp-whatsapp">No. WhatsApp (Opsional)</label>
+              <input type="tel" id="rsvp-whatsapp" name="whatsapp" placeholder="0812xxxxxxx" autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="rsvp-message">Pesan (Opsional)</label>
+            <textarea id="rsvp-message" name="message" placeholder="Tulis pesan atau doa untuk mempelai..." rows="3"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--gold btn--full">Kirim Konfirmasi</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ========== UCAPAN & DOA ========== -->
+    <section id="ucapan" class="section section--velvet" aria-label="Ucapan dan Doa">
+      <div class="section-border-gold" aria-hidden="true"></div>
+      <div class="section-bg-pattern section-bg-pattern--kawung" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="section-label reveal">Doa Harapan</p>
+        <h2 class="section-title section-title--gold reveal" data-delay="100">Ucapan &amp; Doa</h2>
+        <p class="section-subtitle reveal" data-delay="150">Berikan ucapan dan doa terbaik untuk kedua mempelai</p>
+
+        <form id="ucapan-form" class="ucapan-form reveal" data-delay="200" novalidate>
+          <div class="form-row form-row--2col">
+            <div class="form-group">
+              <label for="ucapan-name">Nama</label>
+              <input type="text" id="ucapan-name" name="name" placeholder="Masukkan nama Anda" required autocomplete="name" aria-required="true">
+            </div>
+            <div class="form-group">
+              <label for="ucapan-city">Kota (Opsional)</label>
+              <input type="text" id="ucapan-city" name="city" placeholder="Kota asal Anda">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ucapan-message">Ucapan &amp; Doa</label>
+            <textarea id="ucapan-message" name="message" placeholder="Tulis ucapan dan doa untuk mempelai..." rows="4" required aria-required="true"></textarea>
+          </div>
+          <button type="submit" class="btn btn--gold btn--full">Kirim Ucapan</button>
+        </form>
+
+        <div id="ucapan-list" class="ucapan-list reveal" data-delay="300" aria-live="polite" aria-label="Daftar ucapan"></div>
+      </div>
+    </section>
+
+    <!-- ========== AMPLOP DIGITAL ========== -->
+    <section id="amplop" class="section" aria-label="Amplop Digital">
+      <div class="section-accent--parang" aria-hidden="true"></div>
+
+      <div class="container">
+        <p class="section-label reveal">Amplop Digital</p>
+        <h2 class="section-title reveal" data-delay="100">Berbagi Kebahagiaan</h2>
+        <p class="section-subtitle reveal" data-delay="150">Tanpa mengurangi rasa hormat, bagi yang ingin memberikan tanda kasih kepada kedua mempelai</p>
+
+        <div class="amplop-grid reveal" data-delay="200">
+          <div class="amplop-card">
+            <div class="amplop-card-border" aria-hidden="true"></div>
+            <div class="amplop-card-bg" aria-hidden="true">
+              <img src="assets/gunungan.png" alt="" class="amplop-gunungan">
+            </div>
+            <div class="amplop-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22,4 L12,13 L2,4"/></svg>
+            </div>
+            <p class="amplop-bank">Bank Central Asia (BCA)</p>
+            <p class="amplop-number" aria-label="Nomor rekening 1234567890">1234567890</p>
+            <p class="amplop-name">a.n. Rumadi</p>
+            <button class="btn btn--copy" type="button" data-number="1234567890" aria-label="Salin nomor rekening BCA 1234567890">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span>Salin Rekening</span>
+            </button>
+          </div>
+
+          <div class="amplop-card">
+            <div class="amplop-card-border" aria-hidden="true"></div>
+            <div class="amplop-card-bg" aria-hidden="true">
+              <img src="assets/gunungan.png" alt="" class="amplop-gunungan">
+            </div>
+            <div class="amplop-icon" aria-hidden="true">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22,4 L12,13 L2,4"/></svg>
+            </div>
+            <p class="amplop-bank">Bank Mandiri</p>
+            <p class="amplop-number" aria-label="Nomor rekening 0987654321">0987654321</p>
+            <p class="amplop-name">a.n. Dias Ayu Lestari</p>
+            <button class="btn btn--copy" type="button" data-number="0987654321" aria-label="Salin nomor rekening Mandiri 0987654321">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+              <span>Salin Rekening</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PENUTUP ========== -->
+    <section id="penutup" class="section section--velvet" aria-label="Penutup">
+      <div class="section-border-gold" aria-hidden="true"></div>
+
+      <div class="container">
+        <!-- Floating gunungan in background -->
+        <div class="penutup-gunungan-bg" aria-hidden="true">
+          <img src="assets/gunungan.png" alt="" class="penutup-gunungan-img">
+        </div>
+
+        <blockquote class="penutup-quote reveal">
+          <p>Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kami.</p>
+        </blockquote>
+
+        <div class="ornament-divider reveal" data-delay="200">
+          <span class="diamond"></span>
+          <span class="ornament-line"></span>
+          <span class="diamond"></span>
+        </div>
+
+        <div class="penutup-gunungan reveal" data-delay="300" aria-hidden="true">
+          <img src="assets/gunungan.png" alt="" class="penutup-gunungan-svg">
+        </div>
+
+        <p class="penutup-salam reveal" data-delay="400">Wassalamu'alaikum Warahmatullahi Wabarakatuh</p>
+
+        <p class="penutup-couple reveal" data-delay="500">
+          <span class="penutup-couple-name">Rumadi</span>
+          <span class="penutup-couple-amp">&amp;</span>
+          <span class="penutup-couple-name">Dias</span>
+        </p>
+
+        <p class="penutup-aksara reveal" data-delay="550" aria-hidden="true">ꦱꦸꦏ꧀ꦱꦩ</p>
+
+        <p class="penutup-footer reveal" data-delay="600">Dibuat dengan penuh cinta — 2027</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================================
+       LIGHTBOX OVERLAY
+       ============================================= -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-label="Tampilan gambar" aria-hidden="true">
+    <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Tutup tampilan gambar">&times;</button>
+    <button id="lightbox-prev" class="lightbox-nav lightbox-prev" type="button" aria-label="Foto sebelumnya">&#8249;</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+    <button id="lightbox-next" class="lightbox-nav lightbox-next" type="button" aria-label="Foto berikutnya">&#8250;</button>
+  </div>
+
+  <!-- =============================================
+       MUSIC TOGGLE
+       ============================================= -->
+  <button id="music-toggle" class="music-toggle" type="button" aria-label="Nyalakan musik latar" title="Nyalakan musik">
+    <svg class="music-icon music-icon--on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M9 18V5l12-2v13"/>
+      <circle cx="6" cy="18" r="3"/>
+      <circle cx="18" cy="16" r="3"/>
+    </svg>
+    <svg class="music-icon music-icon--off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <line x1="1" y1="1" x2="23" y2="23"/>
+      <path d="M9 18V5l12-2v13"/>
+      <circle cx="6" cy="18" r="3"/>
+      <circle cx="18" cy="16" r="3"/>
+    </svg>
+  </button>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen" aria-hidden="true">
+    <div class="loading-gunungan">
+      <img src="assets/gunungan.png" alt="" class="loading-gunungan-img">
+    </div>
+    <div class="loading-bar">
+      <div class="loading-bar-fill" id="loading-bar-fill"></div>
+    </div>
+    <p class="loading-text">Memuat undangan...</p>
+  </div>
+
+  <!-- Scroll to Top -->
+  <button id="scroll-top" class="scroll-top" type="button" aria-label="Kembali ke atas" title="Kembali ke atas">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"/>
+    </svg>
+  </button>
+
+  <!-- Dot Navigation -->
+  <nav class="dot-nav" aria-label="Navigasi bagian halaman">
+    <a href="#hero" title="Kutipan"></a>
+    <a href="#mempelai" title="Mempelai"></a>
+    <a href="#love-story" title="Kisah"></a>
+    <a href="#countdown" title="Hitung Mundur"></a>
+    <a href="#acara" title="Acara"></a>
+    <a href="#galeri" title="Galeri"></a>
+    <a href="#rsvp" title="RSVP"></a>
+    <a href="#ucapan" title="Ucapan"></a>
+    <a href="#amplop" title="Amplop"></a>
+    <a href="#penutup" title="Penutup"></a>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>
