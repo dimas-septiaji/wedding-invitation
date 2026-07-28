@@ -1,4 +1,4 @@
-# 💍 Undangan Pernikahan Digital — Tema Kejawen
+# 💍 Undangan Pernikahan Digital "Tema Kejawen"
 
 Website undangan pernikahan digital single-page bertema Jawa klasik (Kejawen) yang elegan, modern, dan mobile-first.
 
